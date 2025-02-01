@@ -11,7 +11,9 @@ In `Droptop settings >> Options >> Change mode` you can change how droptop is sh
 By choosing `Droptop settings >> Options >> Change mode >> Always show Droptop`, droptop will be always accessible on the top of your screen. All your windows won't overlap the bar as the usable desktop area is modified to reserve a top space only for droptop.&#x20;
 
 {% hint style="warning" %}
-If windows starts to overlap or underlap the bar, right click on the bar and click `Fix windows position`.
+If windows starts to overlap or underlap the bar, right click on the bar and click `Refresh Droptop`.\
+\
+In rare instances, you may need to force close Explorer.exe, reopen Explorer.exe, and Refresh Droptop. Or restart your PC. This may be caused by updating or restarting GPU Drivers.
 {% endhint %}
 
 ## Autohide
