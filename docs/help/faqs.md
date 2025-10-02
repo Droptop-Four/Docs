@@ -75,10 +75,10 @@ Some PCs may have issues with hardware acceleration turned on, including slower 
 {% endtab %}
 
 {% tab title="Solution 2" %}
-<mark style="color:yellow;">**Disable**</mark><mark style="color:yellow;">** **</mark><mark style="color:yellow;">**`Use heavy blur`**</mark>
+<mark style="color:yellow;">**Disable**</mark><mark style="color:yellow;">**&#x20;**</mark><mark style="color:yellow;">**`Use heavy blur`**</mark>
 
 1. Go to Droptop settings >> Options >> Blur effects
-2. Disable "Use heavy blur effect">
+2. Disable "Use heavy blur effect"
 3. Note: This setting is theme-specific. You may need to re-disable this setting if you switch to another theme.
 
 {% hint style="info" %}
@@ -87,7 +87,7 @@ Some PCs may have issues with hardware acceleration turned on, including slower 
 {% endtab %}
 
 {% tab title="Solution 3" %}
-<mark style="color:yellow;">**Disable**</mark><mark style="color:yellow;">** **</mark><mark style="color:yellow;">**`Log to file`**</mark>
+<mark style="color:yellow;">**Disable**</mark><mark style="color:yellow;">**&#x20;**</mark><mark style="color:yellow;">**`Log to file`**</mark>
 
 1. Right-click on the Rainmeter icon in the Windows system tray (it's rain drop shaped)
 2. Select `Manage`
@@ -113,7 +113,7 @@ Although Droptop uses very few resources when sitting idle in the background, yo
 {% endtab %}
 
 {% tab title="Solution 2" %}
-<mark style="color:yellow;">**Enable**</mark><mark style="color:yellow;">** **</mark><mark style="color:yellow;">**`Game mode`**</mark>
+<mark style="color:yellow;">**Enable**</mark><mark style="color:yellow;">**&#x20;**</mark><mark style="color:yellow;">**`Game mode`**</mark>
 
 1. When not using Droptop for an extended period of time, you can go to the Windows system tray, right-click on the Rainmeter icon (the rain drop icon), and select "Game mode". Droptop will deactivate completely
 2. To reactivate Droptop, de-select the "Game mode" option.
