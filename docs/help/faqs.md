@@ -94,6 +94,13 @@ Some PCs may have issues with hardware acceleration turned on, including slower 
 3. Select the `Settings` tab
 4. De-select `Log to file`
 {% endtab %}
+
+{% tab title="Solution 4" %}
+<mark style="color:yellow;">**Close the "About Rainmeter" window**</mark>
+
+1. If you have a window open titled "About Rainmeter", having this window open can substantially slow the program down
+2. Close the window or select a skin in the window that isn't Droptop
+{% endtab %}
 {% endtabs %}
 
 ## How do I optimize Droptop for good battery life?
@@ -133,7 +140,7 @@ Although Droptop uses very few resources when sitting idle in the background, yo
 * **Desktop players**:  Works out of the box
 
 {% hint style="info" %}
-Spotify doesn't need anymore Spicetify to work with Rainmeter, as long you have installed a version of the WNP plugin > 2.0.0
+Spotify doesn't need Spicetify to work with Rainmeter, as long you have installed a version of the WNP plugin > 2.0.0
 {% endhint %}
 
 {% hint style="info" %}
@@ -148,7 +155,7 @@ For further informations about supported players and websites visit [https://git
 
 ## My weather, browser media, or email aren't updating
 
-<mark style="color:yellow;">**Problem:**</mark> The webparser or plugins aren't retrieving data
+<mark style="color:yellow;">**Problem:**</mark> Web-based info (Like weather info) or plugins aren't retrieving data
 
 {% tabs %}
 {% tab title="Solution 1" %}
@@ -180,7 +187,7 @@ For further informations about supported players and websites visit [https://git
 {% tab title="Solution 2" %}
 <mark style="color:yellow;">**Check your Gmail account settings**</mark>
 
-1. In the `Droptop settings >> Options >> Apps >> Mail` menu, set your Gmail username and paste the app password provided in Solution
+1. In the `Droptop settings >> Options >> Apps >> Mail` menu, set your Gmail username and paste the app password provided in Solution 1.
 2. Press enter to confirm your entry after typing
 {% endtab %}
 {% endtabs %}
@@ -189,13 +196,11 @@ For further informations about supported players and websites visit [https://git
 
 <mark style="color:yellow;">**Problem:**</mark> My game doesn't start cause it detects a security violation
 
-
-
 {% tabs %}
 {% tab title="Solution 1" %}
-<mark style="color:yellow;">**Use Rainmeter Gamemode**</mark>
+<mark style="color:yellow;">**Use Rainmeter Game Mode**</mark>
 
-Take a look at the documentation for the [Rainmeter Gamemode](https://docs.rainmeter.net/manual/user-interface/manage/#GameModeTab), and configure it the way you like
+Take a look at the documentation for the [Rainmeter Game Mode](https://docs.rainmeter.net/manual/user-interface/manage/#GameModeTab), and configure it the way you like
 
 {% embed url="https://docs.rainmeter.net/manual/user-interface/manage/#GameModeTab" %}
 Rainmeter Gamemode documentation
