@@ -1,5 +1,6 @@
 ---
 description: Create Droptop Four custom app commands
+hidden: true
 ---
 
 # 🔅 Create custom app commands
