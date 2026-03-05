@@ -30,20 +30,25 @@ A `WebView app` is for displaying a web page of your choice in a dropdown menu. 
 
 1. Start off by going `Droptop settings >> Community apps >> Create new app`
 2. A window will open. Select `Webview app`
-3. Choose a name for your app and the author's name, pressing `Enter` to confirm your entry
+3. Choose a name for your app and the author's name
 4. Select `Choose an icon for your app`. Select a `.png` image of your choice, preferably `32x32` pixels. This icon is what will appear in the bar. You can find icons for your app at [flaticon.com](https://flaticon.com), or you can make your own.
 5. Use the option `Use full color icon` if you want the icon in the bar to always be the same color as the image uploaded - Otherwise, the color of the icon will follow the user's current theme and color settings.
 6. Select `Generate app` when ready.
+7. **For the simplest way to make a WebView app**, use the google search page to get to your desired website, (or click the ︙ button, then "Google" in the dropdown) then click the ☰ hamburger button in the top-right corner and select "Set this page as default" - The website will now be the default website that opens when the app launches.
+   1. If you want to make a more advanced WebView app than something that just displays a specific website, you can edit the contents of the ︙or ☰ dropdown menus to display more options, like being able to navigate to a set of different websites.
+   2. Change `NumberOfActionIcons=` to anything from 0 to 5 to increase or decrease the number of dropdown menus available in the top-right corner.
+   3. Double right-click on each dropdown and select Edit Skin to make changes. Change `NumberOfItems=` to the number of dropdown items (Up to 10 for each dropdown menu).
 {% endtab %}
 {% endtabs %}
 
 ## Editing your new app
 
 1. Your new app will now appear in the bar. If you selected `WebView app` or `Droptop app` with `App has a dropdown menu` enabled, clicking on the app icon will open your app.
-2. Right-click twice (Double right-click) anywhere inside of your app to open a quick navigation menu (Or on the navigation icons/bar for WebView apps). Here you can access the essential files and folders that make-up your app. Select `Edit skin (Custom app.ini)`
+2. Right-click twice (Double right-click) anywhere inside of your app to open a quick navigation menu. Here you can access the essential files and folders that make-up your app. Select `Edit skin (Custom app.ini)`
 3. The code for your app's main dropdown menu will appear.
-4. If you're making a WebView app, set `WebViewURL1=` to your website URL.&#x20;
-   * Tip: `WebViewURL2=` and `WebViewURL3=` can be used if you set `NumberOfActionIcons` to 3.
+4. To change the icons in the dropdown menus, just change the value of `ItemIconFileNameX=` to the name of an icon file in the Icons folder (Double right-click >> Open Icons folder). You can find new icons at [flaticon.com](https://flaticon.com), or you can make your own.&#x20;
+   1. Icons should be pure white - Use `Droptop settings >> Support >> Developer tools >> Create 32x32 button images` and select your icon file to convert your icons automatically. Your converted icon will be called `Button32.png` - Rename that file to your desired file name and move it to the Icons folder in your app's folder.\
+      &#x20;
 
 ## Understanding the basics
 
